@@ -1,0 +1,596 @@
+
+        /* @media screen and (max-width: 1216px){
+            
+    @media screen and (max-width: 1024px){  */
+            @media screen and (max-width: 576px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Montserrat;
+    }
+
+    
+  /* theam heading h3*/
+  .theam_h3{
+    font-size: 12px;
+    color: #1F1F1F;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
+  .theam_span{
+    font-weight: bold;
+    color: #098B00;
+    font-family: 'Montserrat';
+  }
+
+  .them_head{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 23px;
+    color: #1F1F1F;
+  }
+  .baner_paragraph{
+    color: #7C7C7C;
+    font-size: 16px;
+    font-weight: bold;
+    
+    font-family: 'Montserrat';
+  }
+
+    body{
+        font-family: Montserrat;
+        width: 100%;
+       
+    }
+    
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+      .navbar{
+        top: 0;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        height: 80px;
+        background-color: white;
+    }
+    .navbar_logo{
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .navbar_logo img{
+        height: 22px;
+        width: 52px;
+    }
+
+    .navbar_items{
+        display: none;
+    }
+    .Nav_btn{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        position: absolute;
+        top: 35px;
+        right: 15px;
+    }
+    .nav_list{
+        
+        display: none--;    /*     આને રેસપોનસિવ બનાવવા મારે ડિસ્પ્લે નોન દેવ નિ  કે ડિસ્પ્લે બ્લોક  */
+        position: absolute;
+        background-color: #098B00;
+        text-align: start;
+        gap: 25px;
+        width: 100%;
+        height: 200px;
+        transition: 1s;
+    }
+    .nav_list.is-active{
+        display: block;
+    }
+
+    .nav_list_font{
+        margin-left: 20px;
+        top: 2px;
+        display:block;
+        color: white;
+        left: 10px;
+        padding: 2px;
+    }
+
+
+    
+.baner_section{
+    height: 700px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Group\ 29\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.baner_information{
+    gap: 20px;
+    height: 400px;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.baner_image{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.baner_image img{
+    bottom: 120px;
+    position: relative;
+   height: 400px;
+   width: 350PX;
+   
+}
+
+/* about section css */
+
+.about_section{
+    width: 100%;
+    height: 1200px;
+    background-color: #ECF4F5;
+    display: block;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.about_image {
+    position: relative;
+    height: 590px;
+    width: 100%;  
+    margin-left:auto;  
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+.about_image img{
+    margin: auto;
+    
+    margin-top: -83px;
+    position: absolute;
+    margin-bottom: 0;
+    height: 400px;
+    width: 280px;
+   
+}
+
+.about_text{
+   margin-bottom: 20px;
+    position: relative;
+    margin-top: 35px;
+    left: 30px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    width: 90%;
+    padding: 10px 10px;
+}
+
+.display_block{
+    margin-top: 645px;
+    /* position: absolute; */
+    bottom: 60;
+    display: flex;
+    text-align: center;
+    width: 80%;
+}
+    
+.display_none{
+display: none;
+}
+
+
+/* vision section css */
+
+.vision_section{
+    width: 100%;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vision_object{
+    display: block;
+    align-items: center;
+    justify-content: center;  
+    margin: auto; 
+}
+.vision_text{
+    margin-top: -25px;
+    display: block;
+    justify-content: left;
+    text-align: center;
+    align-items: safe;
+    width: 100%;
+    position: relative;
+    padding: 10px 30px;
+}
+
+.vision_title-text{
+    /* margin-top: 80px; */
+    display: block;
+    justify-content: left;
+    text-align: center;
+    align-items: safe;
+    width: 100%;
+    position: relative;
+    padding: 10px 30px;
+}
+
+
+.vision_image{
+    padding: 0px 30px;
+    width:100%;
+    height: 280px;
+    margin-top:20px ;
+}
+
+.vision_image image{
+    width:350px;
+    height: 240px;
+}
+
+
+
+/* mission section css */
+
+.mission_section{
+    width: 100%;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mission_object{
+    display: block;
+    align-items: center;
+    justify-content: center;  
+    margin: auto; 
+}
+.mission_text{
+    margin-top: 39px;
+    display: block;
+    justify-content: left;
+    text-align: center;
+    align-items: safe;
+    width: 100%;
+    position: relative;
+    padding: 10px 30px;
+    
+}
+
+.mission_image{
+    padding: 40px 30px;
+    width:100%;
+    height: 280px;
+}
+
+.mission_image image{
+    width:350px;
+    height: 240px;
+}
+
+/*sevices css*/
+
+.service_head{
+    margin-top: -15px;
+}
+.service_section{
+    margin: auto;
+    height: 550px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    /* background-color: bisque; */
+}
+.secvice_box{
+    height: 280px;
+    overflow: hidden;
+}
+
+.service_head{
+    align-items: center;
+    width: 100%;
+}
+.box_div {
+    width: 132%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px;
+    margin: inherit;
+    padding: 1px;
+    margin-left: -29px;
+}
+
+    
+.theme_none{
+    display: none;
+}
+
+.scroll_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.theme_bar{
+    background-color: #098B00;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius:50px;
+    cursor: pointer;
+}
+
+.theme_bar:hover{
+    border: 1px solid #098B00;
+    padding: 5px;
+    
+}
+
+/* why choose us css */
+
+.choose_section{
+    width: 100%;
+    height: 902px;
+    background-color: #ECF4F5;
+
+}
+.choose_part{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.group_image{
+    width: 100%;
+    height: 250px;
+}
+
+.group_image img{
+    width: 250px;
+    height: 250px;
+}
+/*accredian css*/
+
+.accordion{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.accordion-item{
+    width: 100%;
+}
+/* portfolio section     */
+
+.portfolio_section{
+    width: 100%;
+    height: 400px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.portfolio_img img{
+    padding: -3px 20px;
+    margin-top: -9px;
+    height: 280px;
+    width: 350px;
+    position: absolute;
+   margin-left: -130px;
+}
+/* 
+.p_i{
+    height: 400px;
+    width: 400px;
+} */
+
+.portfolio_text{
+    width: 100%;
+    margin: auto;
+}
+
+.portfolio_text{
+    padding: 20px 0;
+}
+
+.THEME_P{
+    padding: 10px 30px
+}
+
+.btn{
+    position: relative; 
+    left: -85px;
+     bottom: 60px; 
+     background-color: aliceblue; 
+     color: black;
+     width: 90px;
+     border-radius: 25px;
+    }
+/* brand area css */
+
+.brand_area{
+    margin-top: 140px;
+    height: 320px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: #ECF4F5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .theme_b{
+    display: none;
+} */
+.brand_img{
+   
+    width: 180px;
+    height: 80px;
+}
+.brand_images{
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+}
+
+.brand_images::-webkit-scrollbar{
+    display:none;
+  }
+/* feedback section css */
+
+.feed_block{
+    display: none;
+}
+
+.feedback_section{
+    width: 100%;
+
+}
+
+.flex_profile img{
+    height: 72px;
+    width: 72px;
+}
+
+.feedback_one{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+.parant_feedback_div {
+    height: 220px;
+    width: 325px;
+    border: 1px solid #E7E7E7;
+   
+}
+.profile_text{
+    overflow: hidden;
+    font-size: 13px;
+}
+.portfolio_paragraph{
+    color: #7C7C7C;
+    overflow: inherit;
+}
+
+.center_block{
+    display: block;
+    align-items: start;
+    
+}
+.flw{
+    width: 325px;
+}
+.feedback_heading{
+    font-size: 21px;
+    align-items: start;
+}
+
+.portfolio_title_text{
+    font-size: 12px;
+}
+.portfolio_paragraph{
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+/* footer section css */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer_section {
+      padding: 20px;
+      height: auto;
+      align-items: center;
+    }
+  
+    .nn{
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .for_padding {
+      margin: 10px 0;
+    }
+  
+    .footer_address {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer_address ul {
+      text-align: center;
+    }
+  
+    .theam_footer_head,
+    .theam_footer_text {
+      text-align: center;
+    }
+  }
+
+  
+.footers_items{
+    font-size: 12px;
+    color: #1F1F1F;
+}
+
+.th_df{
+    width: 100%;
+}
+
+.footer_img{
+    display: flex;
+    justify-content: center;
+}
+
+.fl{
+
+  display: block;
+  right: 10px;
+  position: absolute;
+  padding: 0 30px;
+  margin: 0 30px;
+}
+
+
+}  
+/* }} */
